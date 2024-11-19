@@ -1,5 +1,5 @@
 html, body{
-    font-size: 16px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: gray;
     width: 100%;
@@ -12,7 +12,6 @@ header{
     width: 100%;
     height: 150px;
     background-color: black;
-
 }
 
 nav{
@@ -61,17 +60,18 @@ nav div{
 main {
     width: 100%;
     height: 2000px;
+    background-image: linear-gradient(to top, rgb(72, 49, 14), rgb(131, 136, 61));
 }
 
 main section{
     display: flex;
     justify-content: space-around;
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 main #topo{
     width: auto;
-    height: 400px;
+    height: 600px;
     /* background-color: rgb(85, 43, 13); */
     color: bisque;
     padding: 20px;
@@ -103,7 +103,7 @@ main #topo{
 #meio {
     display: block;
     width: 100%;
-    height: 600px;
+    height: 700px;
     margin: 0;
 }
 
@@ -126,5 +126,106 @@ main #topo{
     margin: 0px;
 
 }
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+
+
+#azeroth, #portal, #legiao, #faccoesAlianca, #faccoesHorda{
+    width: 100%;
+    height: 20%;
+}
+
+#azeroth{
+    background-color: aquamarine;
+}
+
+#portal{
+    background-color: chocolate;
+}
+
+#orcs{
+    background-color: darkgreen;
+}
+
+#faccoesAlianca{
+    background-color: darkslategray;
+}
+
+#faccoesHorda{
+    background-color: brown;
+}
+
+#racas{
+    height: 2100px;
+}
+
+#aliTitulo{
+    background-color: rgb(43, 43, 167);
+    margin: 0;
+}
+
+#hordTitulo{
+    background-color: brown;
+    margin: 0;
+}
+
+#alianca, #horda{
+    width: 100%;
+    height: 500px;
+}
+
+
+#alianca{
+    background-color: blue;
+}
+
+#horda{
+    background-color: red;
+}
+
+#racas div{
+    width: 40%;
+    height: 400px;
+    /* background-color: aqua; */
+}
+
+#historia div{
+    width: 40%;
+    height: 90%;
+    border: 1px;
+    border-color: rgb(0, 0, 0);
+}
+
+#guer, #cac, #pal, #sacer, #bruxo{
+    width: 100%;
+    height: 400px;
+}
+
+#classes div{
+    width: 40%;
+    height: 400px;
+}
+
+#introducao, #party, #raid{
+    width: 100%;
+    height: 400px;
+}
+
+#party div{
+    width: 30%;
+    height: 200px;
+}
+
+#reinos, #worldpvp, #bgs, #ranks{
+    width: 100%;
+    height: 25%;
+}
+
+
 
 
