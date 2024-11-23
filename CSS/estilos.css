@@ -1,130 +1,499 @@
-html, body{
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: gray;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+html,
+body {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: gray;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-header{
-    width: 100%;
-    height: 150px;
-    background-color: black;
-
+header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 180px;
+  background-color: #000000;
+  margin: 0;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;    
-    margin-inline: 20px;
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-nav div{
-    display: flex;
-    align-items: center;
-    width: 14%;
-    height: 100%;
+nav div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 10%;
+  height: 100%;
 }
 
-#logo img{
-    width: auto;
-    height: 150px;
+#logo img {
+  width: auto;
+  height: 100px;
+  margin-right: 250px;
 }
 
-#menu, #link_jogo{
-    width: auto;
-    height: 100%;
-    margin-top: 50px;
-    font-size: 30px;
-    margin-left: 70px;
+#menu,
+#link_jogo {
+  width: auto;
+  height: 100%;
+  margin-top: 50px;
+  font-size: 30px;
+  margin-left: 70px;
 }
 
-#menu a, #link_jogo a{
-    margin: 8px;
-    color: bisque;
-    text-decoration: none;
+#menu a,
+#link_jogo a {
+  margin: 8px;
+  text-decoration: none;
+  color: #ddbe58;
+  text-shadow: 1px 1px 0px #252323, -1px -1px 0px #252323, 1px -1px 0px #252323,
+    -1px 1px 0px #252323;
 }
 
-#menu a:hover, #link_jogo a:hover{
-    color: rgb(134, 134, 30);
-    text-decoration: underline;
+#menu a:hover,
+#link_jogo a:hover {
+  color: rgb(134, 134, 30);
+  text-decoration: underline;
 }
 
-#link_jogo img{
-    width: 30px;
-    height: 30px;
+#link_jogo img {
+  width: 30px;
+  height: 30px;
+}
+
+#btnheader {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 50px;
+  background-color: #4caf50;
+  color: bisque;
+  border: none;
+  cursor: pointer;
+}
+
+#btnheader:hover {
+  background-color: #4caf50;
 }
 
 main {
-    width: 100%;
-    height: 2000px;
+  width: 100%;
+  height: 2500px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to top, rgb(72, 49, 14), rgb(131, 136, 61));
 }
 
-main section{
-    display: flex;
-    justify-content: space-around;
-    margin: 10px;
+#index {
+  height: 1700px;
 }
 
-main #topo{
-    width: auto;
-    height: 400px;
-    /* background-color: rgb(85, 43, 13); */
-    color: bisque;
-    padding: 20px;
+main section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-
-#texto{
-    justify-content: space-around;
-    /* padding: 50px; */
-    width: 40%;
-    height: 80%;
-    margin-top: 10px;
-    text-align: justify;
+main #topo {
+  width: auto;
+  height: 400px;
+  color: bisque;
+  padding: 20px;
 }
 
-#texto a:hover{
-    background-color: black;
-    color: rgb(134, 134, 30);
+#topo article {
+  padding-top: 50px;
 }
 
-#video{
-    margin-top: 30px;
+#texto {
+  width: 40%;
+  height: 80%;
+  margin-top: 10px;
+  text-align: justify;
 }
 
-#texto a{
-    color: bisque;
+#texto a:hover {
+  background-color: black;
+  color: rgb(134, 134, 30);
+}
+
+#texto a {
+  color: bisque;
 }
 
 #meio {
-    display: block;
-    width: 100%;
-    height: 600px;
-    margin: 0;
+  display: block;
+  width: 100%;
+  height: 600px;
+  margin: 0;
 }
 
-#meio div{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
+#meio div {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 500px;
+  /* background-color: blue; */
+  margin: 20px;
+  padding: 30px;
+}
+
+#meio a {
+  color: black;
+  text-decoration: none;
+}
+
+#meio a:hover {
+  color: #86861e;
+  text-decoration: underline;
+}
+
+#meio img {
+  width: 90%;
+  height: 50%;
+}
+
+#base {
+  width: 100%;
+  height: 600px;
+  background-color: brown;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#base h1 {
+  margin-top: 280px;
+  margin-left: 200px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: bisque;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#btnform {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #4caf50;
+  color: bisque;
+  border: none;
+  cursor: pointer;
+}
+#btnform:hover {
+  background-color: #45a049;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+}
+
+#historia {
+  height: 2650px;
+}
+
+#historia div {
+  width: 40%;
+  height: 90%;
+  border: 1px;
+  border-color: rgb(0, 0, 0);
+}
+#historia div img {
+  width: 100%;
+  height: 100%;
+}
+
+#azeroth,
+#portal,
+#legiao,
+#faccoesAlianca,
+#faccoesHorda {
+  width: 100%;
+  height: 500px;
+  padding-top: 30px;
+}
+
+#azeroth {
+  background-color: aquamarine;
+}
+
+#portal {
+  background-color: chocolate;
+}
+
+#orcs {
+  background-color: darkgreen;
+}
+
+#faccoesAlianca {
+  background-color: darkslategray;
+}
+
+#faccoesHorda {
+  background-color: brown;
+}
+
+#racas {
+  height: 3300px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#racas div img {
+  width: 80%;
+  height: 40%;
+}
+
+#aliTitulo {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: rgb(43, 43, 167);
+  margin: 0;
+}
+
+#hordTitulo {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: brown;
+  margin: 0;
+}
+
+#alianca,
+#horda {
+  width: 100%;
+  height: 25%;
+}
+
+#alianca {
+  background-color: blue;
+}
+
+#horda {
+  background-color: red;
+}
+
+#racas div {
+  width: 40%;
+  height: 100%;
+}
+
+#classes {
+  height: 3500px;
+}
+
+#guer,
+#cac,
+#pal,
+#sacer,
+#bruxo {
+  width: 100%;
+  height: 650px;
+}
+
+#classes div {
+  width: 40%;
+  height: 600px;
+}
+
+#classes div img {
+  width: 80%;
+  height: 60%;
+}
+
+#masmorras {
+  height: 1800px;
+}
+
+#introducao {
+  padding-top: 30px;
+}
+
+#introducao,
+#raid {
+  width: 100%;
+  height: 400px;
+}
+
+#party {
+  width: 100%;
+  height: 700px;
+}
+
+#introducao div {
+  width: 40%;
+  height: 90%;
+  border: 1px;
+  border-color: rgb(0, 0, 0);
+}
+
+#introducao div img {
+  width: 100%;
+  height: 100%;
+}
+
+#composicao {
+  margin: 30px;
+}
+
+#party div {
+  width: 30%;
+  height: 500px;
+}
+
+#party div img {
+  width: 80%;
+  height: 60%;
+}
+
+#raid div {
+  width: 40%;
+  height: 90%;
+  border: 1px;
+  border-color: rgb(0, 0, 0);
+}
+
+#raid div img {
+  width: 100%;
+  height: 100%;
+}
+
+#pvp {
+  height: 2800px;
+}
+
+#reinos,
+#worldpvp,
+#bgs,
+#ranks {
+  width: 100%;
+}
+
+#reinos {
+  height: 600px;
+  background-color: blueviolet;
+}
+
+#woldpvp {
+  height: 300px;
+  background-color: brown;
+}
+
+#bgs {
+  height: 700px;
+  background-color: coral;
+}
+
+#ranks {
+  height: 600px;
+  background-color: darkolivegreen;
+}
+
+#reinos div {
+  width: 40%;
+  height: 500px;
+}
+
+#worldpvp div {
+  width: 40%;
+  height: 500px;
+}
+
+#bgTitulo {
+  margin: 30px;
+  background-color: aquamarine;
+}
+
+#bgDescricao {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+#bgs div {
+  width: 30%;
+  height: 400px;
+}
+
+#ranks table {
+  margin-bottom: 50px;
+  table-layout: fixed;
+}
+
+#ranks td {
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(136, 155, 155);
+}
+
+#ranks th {
+  border: 1px solid black;
+  background-color: rgb(67, 67, 50);
+}
+
+@media (max-width: 500px) {
+  body {
+    flex-direction: column;
+  }
+  div {
+    width: 100%;
     height: 400px;
-    background-color: blue;
-    margin: 20px;
-    padding: 30px;
-
+    margin: 10px;
+  }
 }
 
-#base{
-    width: 100%;
-    height: 700px;
-    background-color: brown;
-    margin: 0px;
-
+@media (min-width: 800px) {
+  div {
+    width: 45%;
+    height: 300px;
+    margin: 2% auto;
+  }
 }
 
-
+@media (min-width: 1200px) {
+  div {
+    width: 22%;
+    height: 300px;
+  }
+}

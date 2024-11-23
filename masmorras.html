@@ -12,32 +12,111 @@
 </head>
 
 <body>
-    <header>
-
+    <header id="header">
         <nav>
-            <div id="logo">
-                <img src="https://www.zilliondesigns.com/blog/wp-content/uploads/Warcraft-1280x720.jpg" alt="Logo lol">
-
-
-            </div>
-            <div id="menu">
-                <a href="index.html">Home</a> 
-                <a href="historia.html">História</a>
-                <a href="racas.html">Raças</a>
-                <a href="classes.html">Classes</a>
-                <a href="masmorras.html" class="menu_atual">Masmorras</a>
-                <a href="pvp.html">PVP</a>
-
-            </div>
-           
-            <div id="link_jogo">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp9roUUFTt51YuUxskfzeeP-dEB4oC4Q_Vdw&sa" alt="Logo Classic">
-                <a href="https://wowclassic.blizzard.com/pt-br/" target="blank">Jogue agora</a>
-    
-            </div>
-
+          <div id="logo">
+            <img src="./img/logowow.png" alt="Logo lol" />
+          </div>
+  
+          <div id="menu">
+            <a href="index.html" class="menu_atual">Home</a>
+            <a href="historia.html">História</a>
+            <a href="racas.html">Raças</a>
+            <a href="classes.html">Classes</a>
+            <a href="masmorras.html">Masmorras</a>
+            <a href="pvp.html">PVP</a>
+          </div>
+  
+          <div id="link_jogo">
+            <img src="./img/icone-wow.png" alt="Logo Classic" />
+            <a href="https://wowclassic.blizzard.com/pt-br/" target="blank"
+              >Jogue agora</a
+            >
+          </div>
+          <div>
+            <button id="btnheader" onclick="mudarCor()">Cor do Header</button>
+          </div>
         </nav>
+      </header>
+    
+    <main id="masmorras">
+
+        <section id="introducao">
+
+           <div>
+            <h1>Introdução</h1>
+           <p>Uma das características definidoras de World of Warcraft, desde seu início, são as masmorras. Projetadas por jogadores de jogos 
+            mais antigos, as masmorras são instâncias que acomodam um grupo de 5 pessoas (ou 10 em alguns casos raros). 
+            As masmorras, começando no nível 10, são espalhadas por todas as faixas de nível até o nível 60.</p>
+        </div>
+        <div>
+            <img src="img/ragnaros.jpg" alt="">
+        </div>
+
+        </section>
+
+        <div id="composicao">
+            <h1>Composição</h1>
+            <p>As masmorras geralmente são concluídas com cinco jogadores, sendo um tanque, um curandeiro e três DPS.</p>
+        <div>
+        
+        <section id="party">
+
+            <div>
+                <h2>Tank</h2>
+                <img src="img/tank.jpg" alt="">
+                <p>Os tanques seguram a ameaça, absorvem o dano e impedem que os mobs inimigos matem o DPS e o healer. Normalmente, 
+                    um guerreiro, paladino ou druida irá tankar, equipando um escudo e usando habilidades geradoras de ameaça adequadas.</p>
+
+            </div>
+
+            <div>
+                <h2>Healer</h2>
+                <img src="img/healer.jpg" alt="">
+                <p>Um healer mantém o grupo vivo e ressuscita jogadores mortos. Geralmente um sacerdote devido ao seu kit de cura versátil 
+                    e buffs, mas druidas, paladinos e xamãs também podem curar.</p>
+            </div>
+
+            <div>
+                <h2>DPS</h2>
+                <img src="img/dps.jpg" alt="">
+                <p>DPS podem ser performados por todas as classes do jogo, algumas classes só performam como DPS como magos, caçadores, bruxos e
+                    ladinos. Outras classes hibridas como sacerdotes, paladinos, guerreiros, xamãs e druidas também podem performar DPS.
+                    Os DPS são importantes pois eles são designados a realizar dano nos inimigos da masmorra.
+                </p>
+            </div>
 
 
 
-    </header>
+        </section>
+
+
+        <section id="raid">
+
+            <div>
+                <img src="img/aq.jpg" alt="">
+            </div>
+
+            <div>
+                <h1>Raids</h1>
+                <p> De Onyxia a Kel'thuzad, uma das estrelas mais brilhantes do World of Warcraft em seus primeiros anos foram as Raids. 
+                    Projetados por jogadores e amantes de conteúdo de grupo grande de jogos mais antigos, as Raids clássicas
+                     apresentam muitas camadas diferentes de dificuldade, desde gerenciar grupos de 40 jogadores até dificuldades como farmar 
+                     muitos reagentes diferentes, os ataques tinham desafios de gerenciamento diferentes quando comparados a suas contrapartes
+                     modernas.</p>
+            </div>
+
+        </section>
+
+        
+
+    </main>
+
+    <footer>
+        
+    </footer>
+    <script src="js/codigo.js"></script>
+
+</body>
+
+</html>

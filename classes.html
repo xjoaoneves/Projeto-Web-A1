@@ -1,42 +1,185 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/estilos.css">
-    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQRBLBAiBrouCPfHCtT3oeLuAStxVxVNGHFw&s" type="image/pnj">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/estilos.css" />
+    <link
+      rel="shortcut icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQRBLBAiBrouCPfHCtT3oeLuAStxVxVNGHFw&s"
+      type="image/pnj"
+    />
 
     <title>Wow Classic Classes</title>
+  </head>
 
-</head>
+  <body>
+    <header id="header">
+      <nav>
+        <div id="logo">
+          <img src="./img/logowow.png" alt="Logo lol" />
+        </div>
 
-<body>
-    <header>
+        <div id="menu">
+          <a href="index.html" class="menu_atual">Home</a>
+          <a href="historia.html">História</a>
+          <a href="racas.html">Raças</a>
+          <a href="classes.html">Classes</a>
+          <a href="masmorras.html">Masmorras</a>
+          <a href="pvp.html">PVP</a>
+        </div>
 
-        <nav>
-            <div id="logo">
-                <img src="https://www.zilliondesigns.com/blog/wp-content/uploads/Warcraft-1280x720.jpg" alt="Logo lol">
-
-
-            </div>
-            <div id="menu">
-                <a href="index.html">Home</a> 
-                <a href="historia.html">História</a>
-                <a href="racas.html">Raças</a>
-                <a href="classes.html" class="menu_atual">Classes</a>
-                <a href="masmorras.html">Masmorras</a>
-                <a href="pvp.html">PVP</a>
-            </div>
-
-            <div id="link_jogo">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp9roUUFTt51YuUxskfzeeP-dEB4oC4Q_Vdw&sa" alt="Logo Classic">
-                <a href="https://wowclassic.blizzard.com/pt-br/" target="blank">Jogue agora</a>
-    
-            </div>
-
-        </nav>
-
-
-
+        <div id="link_jogo">
+          <img src="./img/icone-wow.png" alt="Logo Classic" />
+          <a href="https://wowclassic.blizzard.com/pt-br/" target="blank"
+            >Jogue agora</a
+          >
+        </div>
+        <div>
+          <button id="btnheader" onclick="mudarCor()">Cor do Header</button>
+        </div>
+      </nav>
     </header>
+
+    <main id="classes">
+      <section id="guer">
+        <div>
+          <h1>Guerreiro</h1>
+          <img src="img/Classes/warrior.jpg" alt="" />
+          <p>
+            Gladiadores ferozes e mestres de armas corpo a corpo, o Guerreiro é
+            uma classe de Tanque ou DPS baseada em corpo a corpo em World of
+            Warcraft. O Guerreiro tem acesso a três Especializações diferentes,
+            duas das quais são destinadas a causar dano (Armas e Fúria) e a
+            terceira sendo dedicada a Tanque (Proteção). Independentemente da
+            Especialização ou estilo de jogo, todos os Guerreiros usam a Fúria
+            como um recurso.
+          </p>
+        </div>
+        <div>
+          <h1>Druida</h1>
+          <img src="img/Classes/druid.jpg" alt="" />
+          <p>
+            Protetores da natureza, capazes de mudar de forma e aproveitar
+            poderes celestiais, o Druida é a classe mais versátil em World of
+            Warcraft. Os Druidas podem ser jogados como todos os três papéis da
+            santíssima trindade; Tanque/Melee DPS (Feral), Curandeiro
+            (Restauração) e DPS (Equilíbrio). Da mesma forma, os Druidas também
+            têm os recursos mais variados para suas mecânicas de classe e são
+            totalmente dependentes da forma em que estão atualmente. A Forma de
+            Urso usa Fúria, a Forma de Gato usa Energia, e a Forma de Moonkin e
+            Druida usam Mana.
+          </p>
+        </div>
+      </section>
+
+      <section id="cac">
+        <div>
+          <h1>Caçador</h1>
+          <img src="img/Classes/hunter.jpg" alt="" />
+          <p>
+            Domador de feras e com uma forte conexão com a natureza, o Hunter é
+            uma classe corpo a corpo e de longo alcance em World of Warcraft.
+            Hunter pode ser jogado de três maneiras diferentes, no entanto,
+            todas as três se enquadram na categoria de DPS; Beast Mastery,
+            Marksmanship e Survival. Independentemente da especialização ou
+            estilo de jogo, todos os Hunters usam Mana como um recurso.
+          </p>
+        </div>
+        <div>
+          <h1>Mago</h1>
+          <img src="img/Classes/mage.jpg" alt="" />
+          <p>
+            O epítome da fantasia do mago e capaz de aproveitar a magia
+            elemental para destruir seus inimigos, o Mago é uma classe baseada
+            em conjurador em World of Warcraft. O Mago vem em três sabores,
+            todos eles focando em um estilo de jogo excêntrico de DPS; Arcano,
+            Gelo e Fogo. Independentemente da Especialização ou estilo de jogo,
+            todos os Magos usam Mana como um recurso.
+          </p>
+        </div>
+      </section>
+
+      <section id="pal">
+        <div>
+          <h1>Paladino</h1>
+          <img src="img/Classes/paladin.jpg" alt="" />
+          <p>
+            Protetores de aliados e devotos seguidores da fé, o Paladino pode
+            ser jogado como uma classe corpo a corpo ou baseada em conjurador em
+            World of Warcraft. Com todas essas opções de estilo de jogo, vêm
+            três especializações nas quais os Paladinos podem se especializar;
+            Holy é jogado como um healer, Protection é jogado como um Tank,
+            Retribution é jogado como um DPS. Independentemente da
+            especialização ou estilo de jogo, todos os Paladinos usam Mana como
+            um recurso
+          </p>
+        </div>
+        <div>
+          <h1>Xamã</h1>
+          <img src="img/Classes/shaman.jpg" alt="" />
+          <p>
+            Guerreiros espirituais, totalmente sintonizados com a natureza e
+            seus elementos, o Shaman é uma classe incrivelmente versátil de
+            conjurador ou de combate corpo a corpo em World of Warcraft. O
+            Priest tem acesso a três especializações diferentes, duas das quais
+            são destinadas a DPS (Elemental e Enhancement) e a terceira é
+            dedicada à Healing (Restoration). Independentemente da
+            especialização ou estilo de jogo, todos os Xamã usam Mana como
+            recurso.
+          </p>
+        </div>
+      </section>
+
+      <section id="sacer">
+        <div>
+          <h1>Sacerdote</h1>
+          <img src="img/Classes/priest.jpg" alt="" />
+          <p>
+            Praticantes da fé, controlando aspectos tanto da Luz quanto do
+            Vazio, o Sacerdote é uma classe de Cura ou DPS baseada em conjurador
+            em World of Warcraft. O Sacerdote tem acesso a três Especializações
+            diferentes, duas das quais são destinadas à cura (Disciplina e
+            Sagrado) e a terceira sendo dedicada ao DPS (Sombra).
+            Independentemente da Especialização ou estilo de jogo, todos os
+            Sacerdotes usam Mana como um recurso.
+          </p>
+        </div>
+        <div>
+          <h1>Ladino</h1>
+          <img src="img/Classes/rogue.jpg" alt="" />
+          <p>
+            Mestres da furtividade e usuários adeptos de todos os tipos de
+            veneno, o Rogue é uma classe de DPS baseada em combate corpo a corpo
+            em World of Warcraft. Dependendo de como você prefere jogar o jogo
+            ou da fantasia de classe que está procurando, o Rogue vem com três
+            especializações: Assassinato, Combate e Sutileza. Independentemente
+            da especialização ou estilo de jogo, todos os Rogues usam Energia e
+            Pontos de Combo como um recurso.
+          </p>
+        </div>
+      </section>
+
+      <section id="bruxo">
+        <div>
+          <h1>Bruxo</h1>
+          <img src="img/Classes/warlock.jpg" alt="" />
+          <p>
+            Mestre das artes das trevas e invocador de demônios, o Warlock é uma
+            classe de DPS baseada em conjuradores em World of Warcraft. Bruxos
+            tem acesso a três especializações diferentes, e todas as três são
+            dedicadas a um estilo diferente de DPS: Aflição, Demonologia e
+            Destruição. Independentemente da especialização ou estilo de jogo,
+            todos os bruxos usam Mana como um recurso. Ao contrário de outros
+            conjuradores, os Warlocks são capazes de usar sua saúde como um
+            recurso, gastando-a em magias perigosas em sua ânsia por poder cada
+            vez maior.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+    <script src="js/codigo.js"></script>
+  </body>
+</html>
