@@ -472,7 +472,7 @@ footer {
   background-color: rgb(67, 67, 50);
 }
 
-@media (max-width: 500px) {
+/*@media (max-width: 500px) {
   body {
     flex-direction: column;
   }
@@ -497,3 +497,4 @@ footer {
     height: 300px;
   }
 }
+*/
