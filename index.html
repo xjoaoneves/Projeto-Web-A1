@@ -1,127 +1,172 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/estilos.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/estilos.css">
-    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQRBLBAiBrouCPfHCtT3oeLuAStxVxVNGHFw&s" type="image/pnj">
+    <link
+      rel="shortcut icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQRBLBAiBrouCPfHCtT3oeLuAStxVxVNGHFw&s"
+      type="image/pnj"
+    />
 
     <title>Wow Classic Infos</title>
+  </head>
 
-</head>
+  <body>
+    <header id="header">
+      <nav>
+        <div id="logo">
+          <img src="./img/logowow.png" alt="Logo lol" />
+        </div>
 
-<body>
-    <header>
+        <div id="menu">
+          <a href="index.html" class="menu_atual">Home</a>
+          <a href="historia.html">História</a>
+          <a href="racas.html">Raças</a>
+          <a href="classes.html">Classes</a>
+          <a href="masmorras.html">Masmorras</a>
+          <a href="pvp.html">PVP</a>
+        </div>
 
-        <nav>
-            <div id="logo">
-                <img src="https://www.zilliondesigns.com/blog/wp-content/uploads/Warcraft-1280x720.jpg" alt="Logo lol">
-
-            </div>
-
-            <div id="menu">
-                <a href="index.html" class="menu_atual">Home</a> 
-                <a href="historia.html">História</a>
-                <a href="racas.html">Raças</a>
-                <a href="classes.html">Classes</a>
-                <a href="masmorras.html">Masmorras</a>
-                <a href="pvp.html">PVP</a>
-
-            </div>
-    
-            <div id="link_jogo">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp9roUUFTt51YuUxskfzeeP-dEB4oC4Q_Vdw&sa" alt="Logo Classic">
-                <a href="https://wowclassic.blizzard.com/pt-br/" target="blank">Jogue agora</a>
-    
-            </div>
-
-        </nav>
-
+        <div id="link_jogo">
+          <img src="./img/icone-wow.png" alt="Logo Classic" />
+          <a href="https://wowclassic.blizzard.com/pt-br/" target="blank"
+            >Jogue agora</a
+          >
+        </div>
+        <div>
+          <button id="btnheader" onclick="mudarCor()">Cor do Header</button>
+        </div>
+      </nav>
     </header>
 
     <main id="index">
+      <section id="topo">
+        <div id="texto">
+          <h1>World of Warcraft Classic</h1>
 
-        <section id="topo">
+          <h3>Onde tudo começou...</h3>
 
-            <div id="texto">
+          <p>
+            O aclamado MMMORPG World of Warcraft, ou simplesmente "WOW", foi
+            lançado oficialmente em 2004. A história se passa em Azeroth um
+            mundo cheio de maravilhas onde diversas raças coexistem, mas nem
+            tudo é harmonia nesse mundo. Após a invasão da Legião Ardente
+            (Impiedosos demônios), o mundo precisa lidar com a destruição
+            causada por esses seres vis. Além disso, as raças de Azeroth estão
+            em conflitos dividos entre: a Aliança, comandada pelos nobres
+            humanos e as raças aliadas dos Anôes, Elfos Noturnos e Gnomos; e a
+            Horda, dos guerreiros Orcs, juntamente com os Mortos-vivos, Taurens
+            e Trolls.
+          </p>
 
-                <h1>World of Warcraft Classic</h1>
+          <a
+            href="https://pt.wikipedia.org/wiki/World_of_Warcraft"
+            target="_blank"
+            >Saiba mais</a
+          >
+        </div>
 
-                <h3>Onde tudo começou...</h3>
+        <article id="video_lancamento">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/oQK8LqkoXbs?si=SQHfPfyYjUppkbMx"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </article>
+      </section>
 
-                <p>O aclamado MMMORPG World of Warcraft, ou simplesmente "WOW", foi lançado oficialmente em 2004. A história se passa em Azeroth
-                    um mundo cheio de maravilhas onde diversas raças coexistem, mas nem tudo é harmonia nesse mundo. Após a invasão da Legião
-                    Ardente (Impiedosos demônios), o mundo precisa lidar com a destruição causada por esses seres vis. Além disso, as raças de Azeroth
-                    estão em conflitos dividos entre: a Aliança, comandada pelos nobres humanos e as raças aliadas dos Anôes, Elfos Noturnos e Gnomos;
-                    e a Horda, dos guerreiros Orcs, juntamente com os Mortos-vivos, Taurens e Trolls.                
-                </p>
+      <section id="meio">
+        <div type="box">
+          <h2>Aventure-se por Azeroth</h2>
+          <img src="img/grifo.jpg" alt="" />
+          <p>
+            Descubra as maravilhas de Azeroth, um vasto mundo cheio de mistérios
+            e tesouros para explorar.
+          </p>
+        </div>
 
-                <a href="https://pt.wikipedia.org/wiki/World_of_Warcraft" target="_blank">Saiba mais</a>
+        <div>
+          <h2>Escolha seu lado</h2>
+          <img src="img/escolha.jpg" alt="Escolha seu lado" />
+          <p>
+            Em Azeroth você deve escolher o lado o qual deseja defender: a
+            Aliança dos Humanos ou a Horda dos Orcs. Sua escolha impactara nos
+            aliados que irá ter ao seu lado, e os inimigos que irá fazer.
+            Escolha sabiemente por qual causa deseja lutar.
+          </p>
+        </div>
 
+        <div>
+          <h2>Jogue agora</h2>
+          <img src="img/zg.jpg" alt="" />
+          <p>
+            Comece agora mesmo sua aventura em World of Warcraft Classic, e
+            conquiste o mundo de Azeroth!
+            <a href="https://wowclassic.blizzard.com/pt-br/" target="_blank">
+              Jogue agora!</a
+            >
+          </p>
+        </div>
+      </section>
 
-            </div>
+      <section id="base">
+        <h1>Formulário de Contato</h1>
+        <form id="formulario" onsubmit="mostrarDados(event)">
+          <label for="nome">Nome:</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Digite seu nome"
+            required
+          />
 
-            <article id="video_lancamento">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/oQK8LqkoXbs?si=SQHfPfyYjUppkbMx" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
-                picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <label for="email">E-mail:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu e-mail"
+            required
+          />
 
-            </article>
+          <label for="sexo">Sexo:</label>
+          <select id="sexo" name="sexo" required>
+            <option value="">Selecione seu sexo</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Outro">Outro</option>
+          </select>
 
-        </section>
+          <label for="mensagem">Mensagem:</label>
+          <textarea
+            id="mensagem"
+            name="mensagem"
+            rows="5"
+            placeholder="Escreva sua mensagem aqui..."
+            required
+          ></textarea>
 
-        <section id="meio">
+          <input type="checkbox" id="novidades" name="novidades" />
 
-            <div type="box">
-                <h2>Aventure-se por Azeroth</h2>
-                <img src="img/grifo.jpg" alt="">
-                <p>
-                    Descubra as maravilhas de Azeroth, um vasto mundo cheio de mistérios e tesouros para explorar.
-                </p>
-                
-            </div>
-
-            <div>                
-                <h2>Escolha seu lado</h2>
-                <img src="img/escolha.jpg" alt="Escolha seu lado">
-                <p>
-                    Em Azeroth você deve escolher o lado o qual deseja defender: a Aliança dos Humanos ou a Horda dos Orcs.
-                    Sua escolha impactara nos aliados que irá ter ao seu lado, e os inimigos que irá fazer.
-                    Escolha sabiemente por qual causa deseja lutar.
-                </p>
-
-
-            </div>
-
-            <div>
-                <h2>Jogue agora</h2>
-                <img src="img/zg.jpg" alt="">
-                <p>
-                    Comece agora mesmo sua aventura em World of Warcraft Classic, e conquiste o mundo de Azeroth!
-                    <a href="https://wowclassic.blizzard.com/pt-br/" target="_blank"> Jogue agora!</a>
-                </p>
-
-
-            </div>
-
-        </section>
-
-        <section id="base">
-
-            Formulario aqui
-
-
-        </section>
-
-
+          <label for="novidades">Desejo receber novidades por e-mail</label>
+          <br />
+          <button id="btnform" type="submit">Enviar Mensagem</button>
+        </form>
+      </section>
     </main>
 
-    <footer>
+    <footer></footer>
 
-
-    </footer>
-
-</body>
-
+    <script src="js/codigo.js"></script>
+  </body>
 </html>
